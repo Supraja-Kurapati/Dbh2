@@ -1,10 +1,8 @@
 const {MongoClient}=require('mongodb')
 
-// const client=new MongoClient("mongodb://127.0.0.1:27017")
+ const client=new MongoClient("mongodb://127.0.0.1:27017")
 
 
-//for Atlas-usage
-const client=new MongoClient("mongodb+srv://SuprajaKurapati:Suppu63098@cluster0.udurvsr.mongodb.net/?retryWrites=true&w=majority")
 
 const connection=async()=>{
     try{
